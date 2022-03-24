@@ -87,8 +87,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libpeas.git",
-                    "commit": "6b4217e0a5ec451cdbe9380df26d701d8e6bdf88",
-                    "tag": "libpeas-1.26.0"
+                    "commit": "41335bc31cb3e5ec75196e621bb244ca4d96f151",
+                    "tag": "libpeas-1.32.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^libpeas-([\\d.]+)$"
+                    }
                 }
             ]
         },
@@ -100,7 +104,11 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/totem-pl-parser.git",
                     "tag": "V_3_26_6",
-                    "commit": "1431f520fb82f98873c3870f2bbe8eba4d0e670a"
+                    "commit": "1431f520fb82f98873c3870f2bbe8eba4d0e670a",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^libpeas([\\d.]+)$"
+                    }
                 }
             ],
             "cleanup": [ "/include" ],
@@ -116,7 +124,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/grilo.git",
-                    "commit": "3f971c40137c18f364580ef640e054254fd011ca"
+                    "tag": "grilo-0.3.14",
+                    "commit": "f42014e4c4ba58cff581f202ebec54f044db36f3",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^grilo-([\\d.]+)$"
+                    }
                 }
             ],
             "cleanup": [ "/include" ]
@@ -129,7 +142,11 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/librest.git",
                     "commit": "bd33ade80080687e49b87329bf587e966b859bbb",
-                    "tag": "0.8.1"
+                    "tag": "0.8.1",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ]
         },
